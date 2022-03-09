@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookShare</string>
+    <string name="Login_main">Hello, Sign in to your account</string>
+    <string name="Login_user">Username</string>
+    <string name="Login_button">Login</string>
+    <string name="Password">Password</string>
+    <string name="signup">Registration</string>
+    <string name="registerbtn">Sign Up</string>
+    <string name="btn">Already Registered? Login here</string>
+    <string name="Register">Create new account</string>
+    <string name="ForgotPassword">Forgot password?</string>
+    <string name="Add_Update">Add/update a Book</string>
+    <string name="Borrow">Borrow a Book</string>
+    <string name="Reading">Reading Tracker</string>
+    <string name="btnAdd">Add a book</string>
+    <string name="btnaddSubmit">Submit</string>
+    <string name="btnUpdate">Update a book</string>
+    <string name="title">Title</string>
+    <string name="aurthor">Aurthor</string>
+    <string name="Publisher">Publisher</string>
+    <string name="pubyear">Publisher Year</string>
+    <string name="share">Share a book</string>
+    <string name="giveaway">Giveaway a book</string>
+    <string name="rentout">Rent out</string>
+    <string name="status">Do you want to change the Status?</string>
+    <string name="available">Available</string>
+    <string name="notavailable">Not Available</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Readingtracker">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/img_bookshare2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Enter your Reading history here!"
+        android:textColor="#403F3F"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:hint="Book Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="226dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="@string/btnaddSubmit"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button17"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="260dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Click here to read online"
+        android:textColor="@color/button" />
+
+    <Button
+        android:id="@+id/button18"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Click here to See Reading History"
+        android:textColor="@color/button" />
+
+</LinearLayout>
