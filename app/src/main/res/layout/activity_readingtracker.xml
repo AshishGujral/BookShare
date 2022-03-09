@@ -16,14 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="84dp"
         android:layout_marginBottom="40dp"
+        android:contentDescription="@string/Logo"
         app:srcCompat="@drawable/img_bookshare2" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Enter your Reading history here!"
+        android:layout_marginStart="10dp"
+        android:text="@string/enter_your_reading_history_here"
         android:textColor="#403F3F"
         android:textStyle="bold" />
 
@@ -34,7 +35,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="77dp"
-            android:hint="Book Name" />
+            android:hint="@string/book_name"
+            tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -48,7 +50,8 @@
         android:gravity="center"
         android:text="@string/btnaddSubmit"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button17"
@@ -57,8 +60,9 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Click here to read online"
-        android:textColor="@color/button" />
+        android:text="@string/click_here_to_read_online"
+        android:textColor="@color/button"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button18"
@@ -67,7 +71,8 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Click here to See Reading History"
-        android:textColor="@color/button" />
+        android:text="@string/click_here_to_see_reading_history"
+        android:textColor="@color/button"
+        tools:ignore="TextContrastCheck" />
 
 </LinearLayout>

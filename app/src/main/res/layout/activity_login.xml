@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="115dp"
         android:layout_marginBottom="40dp"
+        android:contentDescription="@string/Logo"
         app:srcCompat="@drawable/img_bookshare2" />
 
     <Button
@@ -25,12 +26,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/Borrow"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button"
@@ -39,12 +43,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/Add_Update"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button6"
@@ -53,11 +60,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/Reading"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
 </LinearLayout>

@@ -15,6 +15,7 @@
         android:id="@+id/imageView12"
         android:layout_width="match_parent"
         android:layout_height="115dp"
+        android:contentDescription="@string/Logo"
         app:srcCompat="@drawable/img_bookshare2" />
 
     <TextView
@@ -25,7 +26,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Admin Login"
+        android:text="@string/admin_login"
         android:textColor="#696969"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -45,11 +46,12 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/icons8_user_30"
+                android:drawableStart="@drawable/icons8_user_30"
                 android:drawablePadding="15dp"
-                android:hint="Admin Login Id"
-                android:paddingLeft="10dp"
+                android:hint="@string/admin_login_id"
+                android:paddingStart="10dp"
                 android:paddingTop="10dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
                 android:rotationX="0"
                 android:singleLine="true" />
@@ -72,11 +74,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/icons8_password_24"
+                android:drawableStart="@drawable/icons8_password_24"
                 android:drawablePadding="15dp"
                 android:hint="@string/Password"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:paddingTop="10dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
                 android:rotationX="0"
                 android:singleLine="true"
@@ -92,5 +95,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:text="@string/Login_button"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        tools:ignore="TextContrastCheck" />
 </LinearLayout>

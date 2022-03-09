@@ -25,4 +25,27 @@
     <string name="status">Do you want to change the Status?</string>
     <string name="available">Available</string>
     <string name="notavailable">Not Available</string>
+    <string name="set_a_pickup_time">Set a Pickup Time</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="Logo">Logo</string>
+    <string name="Logo">Logo</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="reading_interest">Reading Interest</string>
+    <string name="email">Email</string>
+    <string name="create_a_user">Create a user</string>
+    <string name="update_a_user">Update a user</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="delete_a_user">Delete a user</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="admin_login_id">Admin Login Id</string>
+    <string name="address">Address</string>
+    <string name="find_books">Find books</string>
+    <string name="rented_book">Rented Book?</string>
+    <string name="shared_book">Shared Book?</string>
+    <string name="enter_your_reading_history_here">Enter your Reading history here!</string>
+    <string name="book_name">Book Name</string>
+    <string name="click_here_to_read_online">Click here to read online</string>
+    <string name="click_here_to_see_reading_history">Click here to See Reading History</string>
 </resources>

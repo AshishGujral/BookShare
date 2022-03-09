@@ -15,7 +15,8 @@
         android:id="@+id/imageView10"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        app:srcCompat="@drawable/img_bookshare2" />
+        app:srcCompat="@drawable/img_bookshare2"
+        android:contentDescription="@string/Logo" />
 
     <TextView
         android:id="@+id/txtview2"
@@ -25,7 +26,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Set a Pickup Time"
+        android:text="@string/set_a_pickup_time"
         android:textColor="#696969"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -36,8 +37,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Message"
-        android:inputType="textMultiLine" />
+        android:hint="@string/message"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button14"
@@ -46,7 +49,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:text="Submit"
-        android:textAllCaps="false" />
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        tools:ignore="TextContrastCheck" />
 
 </LinearLayout>

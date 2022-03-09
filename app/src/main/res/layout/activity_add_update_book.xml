@@ -15,8 +15,8 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        app:srcCompat="@drawable/img_bookshare2"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/Logo"
+        app:srcCompat="@drawable/img_bookshare2" />
 
     <Button
         android:id="@+id/button7"
@@ -25,12 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/btnAdd"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button8"
@@ -39,10 +42,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/btnUpdate"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 </LinearLayout>

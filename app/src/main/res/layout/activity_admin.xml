@@ -15,6 +15,7 @@
         android:id="@+id/imageView11"
         android:layout_width="match_parent"
         android:layout_height="115dp"
+        android:contentDescription="@string/Logo"
         app:srcCompat="@drawable/img_bookshare2" />
 
     <Button
@@ -22,14 +23,16 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center|start"
         android:layout_marginTop="30dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
-        android:text="Create a user"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/create_a_user"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button19"
@@ -39,11 +42,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
-        android:text="Update a user"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/update_a_user"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button20"
@@ -53,11 +58,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
-        android:text="Delete a user"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/delete_a_user"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button21"
@@ -67,9 +74,11 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="@color/teal_700"
-        android:gravity="center|left"
-        android:paddingLeft="20dp"
-        android:text="Send a message"
+        android:gravity="center|start"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/send_a_message"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
 </LinearLayout>

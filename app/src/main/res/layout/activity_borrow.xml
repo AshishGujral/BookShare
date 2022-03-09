@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="84dp"
         android:layout_marginBottom="40dp"
+        android:contentDescription="@string/Logo"
         app:srcCompat="@drawable/img_bookshare2" />
 
     <androidx.cardview.widget.CardView
@@ -34,11 +35,12 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/icons8_address_24"
+                android:drawableStart="@drawable/icons8_address_24"
                 android:drawablePadding="15dp"
-                android:hint="Address"
-                android:paddingLeft="10dp"
+                android:hint="@string/address"
+                android:paddingStart="10dp"
                 android:paddingTop="10dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
                 android:rotationX="0"
                 android:singleLine="true"
@@ -53,14 +55,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Shared Book?" />
+        android:minHeight="48dp"
+        android:text="@string/shared_book"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <RadioButton
         android:id="@+id/radioButton7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Rented Book?" />
+        android:minHeight="48dp"
+        android:text="@string/rented_book" />
 
     <Button
         android:id="@+id/button10"
@@ -69,8 +74,9 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Find books"
-        android:textColor="@color/button" />
+        android:text="@string/find_books"
+        android:textColor="@color/button"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
     <ListView
         android:layout_width="match_parent"
