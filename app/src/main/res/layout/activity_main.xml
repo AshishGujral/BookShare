@@ -9,7 +9,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="91dp" />
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -41,6 +41,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mainLoginEmail"
                 android:layout_width="335dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -70,6 +71,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mainLoginPassword"
                 android:layout_width="335dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
@@ -87,7 +89,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/MainLoginBtn"
         style="@style/Button"
         android:layout_width="324dp"
         android:layout_height="wrap_content"
@@ -99,10 +101,10 @@
         tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/forgetABtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="221dp"
-        android:layout_height="wrap_content"
+        android:layout_width="218dp"
+        android:layout_height="35dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="@string/ForgotPassword"
@@ -110,7 +112,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/CreateBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
@@ -120,6 +122,17 @@
         android:text="@string/Register"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/adminBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="10dp"
+        android:text="@string/Admin"
+        android:textColor="@color/button"
         tools:ignore="TextContrastCheck" />
 
 </LinearLayout>

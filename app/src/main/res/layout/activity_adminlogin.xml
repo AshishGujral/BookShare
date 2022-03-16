@@ -42,6 +42,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adminId"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -71,6 +72,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adminPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
@@ -88,7 +90,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/adminLoginbtn"
         style="@style/Button"
         android:layout_width="251dp"
         android:layout_height="wrap_content"

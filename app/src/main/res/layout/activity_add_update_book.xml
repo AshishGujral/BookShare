@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/img_bookshare2" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/addabookBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/updateabookBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
